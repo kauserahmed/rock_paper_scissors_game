@@ -40,8 +40,8 @@ elif user_choice == 2:
 computer_chose = random.randint(0, 2)
 print("computer_chose: " + game_img[computer_chose])
 
-if user_choice >= 2 or user_choice <0 :
-  print("You insert invalid number. you lose")
+if user_choice >= 3 or user_choice <0 :
+  print("You insert invalid number. You lose.")
 if user_choice == 0 and computer_chose == 2:
   print("You win")
 if user_choice == 1 and computer_chose == 0:
